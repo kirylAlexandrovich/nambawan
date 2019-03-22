@@ -1,0 +1,93 @@
+nav {
+  width: 50px;
+  height: 100vh;
+  position: fixed;
+
+  background-color: #fff;
+  box-shadow: -1px 0 5px #828282;
+
+  z-index: 2;
+}
+
+menu {
+  display: none;
+  width: 100px;
+  padding: 20px;
+
+  position: fixed;
+  top: 0;
+
+  background-color: #fff;
+  list-style: none;
+  box-shadow: 2px 2px 5px 0 #adadad;
+}
+
+menu a {
+  text-decoration: none;
+  color: #000;
+}
+
+menu a:hover {
+  color: #c5c5c5;
+}
+
+menu li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.menu-icon {
+  position: relative;
+  top: 20px;
+  left: 14px;
+}
+
+.burger {
+  height: 60px;
+  cursor: pointer;
+}
+
+.burger span {
+  position: relative;
+  top: 15px;
+  left: 5px;
+
+  color: #c5c5c5;
+  font-size: 11px;
+}
+
+.burger:hover span {
+  color: #727272
+}
+
+.social-links {
+  height: 37px;
+  width: 130px;
+  padding-top: 13px;
+
+  position: fixed;
+  left: -40px;
+  transform: rotate(-90deg);
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #c5c5c5;
+}
+
+.social-links i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.social-links:hover a {
+  color: #727272;
+}
+
+.vk {
+  bottom: 200px;
+}
+
+.instagram {
+  bottom: 60px;
+}

@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: raleway-light;
+}
+
+h1 {
+  position: fixed;
+  left: 5000px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+
+  height: 200px;
+  margin-left: 50px;
+
+  background-color: #303030;
+  color: #fff;
+}
+
+footer div {
+  width: 250px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+footer h4 {
+  font-family: raleway-extra-bold;
+  font-size: 14px;
+}
+
+footer span {
+  font-family: raleway-light;
+  font-size: 20px
+}

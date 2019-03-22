@@ -1,0 +1,156 @@
+.second-screen {
+  display: flex;
+  margin-left: 50px;
+}
+
+.video-link-image {
+  width: 50%;
+  height: 100vh;
+
+  background-size: cover;
+  text-align: center;
+}
+
+.rope-jumping-img {
+  background-image: url('../images/rope-jumping.jpg');
+}
+
+.fly-boarg-img {
+  background-image: url('../images/fly-board.jpg');
+}
+
+.video-link-icon {
+  position: relative;
+  top: 41%;
+
+  font-size: 100px;
+  transform: rotate(15deg);
+}
+
+.video-link-icon i {
+  color: #10e08b;
+}
+
+.video-link-icon i:hover {
+  color: #15a76a;
+}
+
+.second-screen-container h2 {
+  font-family: raleway-extra-bold;
+  font-size: 40px;
+}
+
+.second-screen-discription {
+  font-family: raleway-regular;
+  font-size: 24px;
+}
+
+.second-screen-container {
+  width: 50%;
+  padding: 110px 55px 0 85px;
+  box-sizing: border-box;
+}
+
+.second-screen-container:first-child {
+  width: 300px;
+}
+
+.second-screen-container section {
+  width: 400px;
+  margin: 110px 0 0 50px;
+}
+
+.cards {
+  float: left;
+  width: 220px;
+  height: 170px;
+  margin-top: 100px;
+  padding-top: 25px;
+  box-sizing: border-box;
+
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.image-center-align {
+  width: 100%;
+  margin: auto;
+}
+
+.space-cont {
+  margin-left: 15px;
+}
+
+.world-cont:hover img {
+  transform: rotate(960deg);
+  transition: transform 10s ease-in;
+}
+
+.space-cont:hover img {
+  transform: translate(-30px);
+  transition: transform 5s ease-in;
+}
+
+.third-screen {
+  text-align: center;
+  display: grid;
+}
+
+.third-screen h2 {
+  margin: 75px 0;
+  align-content: center;
+
+  font-family: raleway-extra-bold;
+  font-size: 40px;
+}
+
+.how-it-was-container {
+  display: flex;
+  justify-content: space-around;
+
+  margin-left: 50px;
+  margin-bottom: 120px;
+}
+
+.photo-slider-container {
+  width: 450px;
+  height: 315px;
+  box-shadow: 1px 1px 6px #949494;
+}
+
+.image-slider-wrapper {
+  overflow: hidden;
+}
+
+.image-slider {
+  height: 315px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.image-slider li {
+  max-width: 100%;
+  float: left;
+  list-style: none;
+}
+
+.highlight-green {
+  font-family: raleway-bold;
+  color: #10e08b;
+}
+
+.description-slider {
+  width: 250px;
+  padding-top: 100px;
+}
+
+.description-slider h3 {
+  font-family: raleway-light;
+  font-size: 30px;
+  margin: 0;
+}
+
+.description-slider span {
+  color: #10e08b;
+}
